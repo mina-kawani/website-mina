@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>ビジネスサイト向け 無料ホームページテンプレート tp_biz38</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="ここにサイト説明を入れます">
+<meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５">
+<link rel="stylesheet" href="css/style.css">
+<script type="text/javascript" src="js/openclose.js"></script>
+<script type="text/javascript" src="js/ddmenu_min.js"></script>
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<style>
+#menubar ul.ddmenu {display:none;}
+</style>
+<![endif]-->
+</head>
+<body>
+
+<header>
+<div class="inner">
+<h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="SAMPLE LOGO"></a></h1>
+<!--801px以上の端末用メニュー-->
+<nav id="menubar">
+<ul>
+<li><a href="index.html">HOME</a></li>
+<li><a href="company.html">COMPANY</a></li>
+<li><a href="service.html">SERVICE</a>
+    <ul class="ddmenu">
+    <li><a href="service1.html">SERVICE:1</a></li>
+    <li><a href="service2.html">SERVICE:2</a></li>
+    <li><a href="service3.html">SERVICE:3</a></li>
+	</ul>
+</li>
+<li><a href="contact.html">CONTACT</a></li>
+</ul>
+</nav>
+<!--800px以下の端末用メニュー-->
+<nav id="menubar-s">
+<ul>
+<li><a href="index.html">HOME</a></li>
+<li><a href="company.html">COMPANY</a></li>
+<li><a href="service.html">SERVICE</a></li>
+<li><a href="contact.html">CONTACT</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
+<div class="contents pt150">
+<div class="inner">
+
+<section>
+
+<h2>サービスのご案内</h2>
+<p><strong class="color1">※当ページは古いブラウザや、スマホ・タブレットなどの携帯端末に必要です。必ず用意し、各プルダウンメニュー先へのリンクを設けておいて下さい。</strong></p>
+
+<ul class="disc">
+<li><a href="service1.html">SERVICE1はこちら</a></li>
+<li><a href="service2.html">SERVICE2はこちら</a></li>
+<li><a href="service3.html">SERVICE3はこちら</a></li>
+</ul>
+
+</section>
+
+</div>
+<!--/inner-->
+</div>
+<!--/contents-->
+
+<p id="pagetop"><a href="#">↑ </a></p>
+
+<footer>
+<small>Copyright&copy; <a href="index.html">Sample Site</a> All Rights Reserved.</small>
+<span class="pr"><a href="http://template-party.com/" target="_blank">Web Design:Template-Party</a></span>
+</footer>
+
+<!--スマホ用更新情報　480px以下-->
+<script type="text/javascript">
+if (OCwindowWidth() <= 480) {
+	open_close("newinfo_hdr", "newinfo");
+}
+</script>
+
+<!--メニューの３本バー-->
+<div id="menubar_hdr" class="close"><span></span><span></span><span></span></div>
+<!--メニューの開閉処理条件設定　800px以下-->
+<script type="text/javascript">
+if (OCwindowWidth() <= 800) {
+	open_close("menubar_hdr", "menubar-s");
+}
+</script>
+</body>
+</html>
