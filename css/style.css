@@ -52,7 +52,7 @@ header {
 }
 /*ロゴ画像の設定*/
 header #logo {
-	width: 140px;	/*ブロック幅*/
+	width: 220px;	/*ブロック幅*/
 	float: left;	/*左に回りこみ*/
 	/*
 	padding: 10px;	/*ロゴブロック内の余白
