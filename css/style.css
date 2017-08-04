@@ -1,6 +1,7 @@
 @charset "utf-8";
 
 
+
 /*PC・タブレット・スマホ共通設定
 ------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -11,6 +12,9 @@ body {
 	padding: 0px;
 	color: #333;	/*全体の文字色*/
 	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
+	font-family: "a-otf-jun-pro", "sans-serif";
+	font-style: normal;
+	font-weight: 300;
 	font-size: 14px;	/*文字サイズ*/
 	line-height: 2;		/*行間*/
 	background: #fff;	/*背景色*/
@@ -77,7 +81,7 @@ header #logo {
 /*メニューブロックの設定*/
 #menubar {
 	float: right;	/*右寄せ*/
-	margin-top: 11px;	/*上下バランスを取る為、上に少しスペースをとる。*/
+	margin-top: 36px;	/*上下バランスを取る為、上に少しスペースをとる。*/
 }
 /*メニュー１個あたりの設定*/
 #menubar li {
