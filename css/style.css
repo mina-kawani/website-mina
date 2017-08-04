@@ -1,6 +1,7 @@
 @charset "utf-8";
 
 
+
 /*PC・タブレット・スマホ共通設定
 ------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -11,6 +12,9 @@ body {
 	padding: 0px;
 	color: #333;	/*全体の文字色*/
 	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
+	font-family: "a-otf-jun-pro", "sans-serif";
+	font-style: normal;
+	font-weight: 300;
 	font-size: 14px;	/*文字サイズ*/
 	line-height: 2;		/*行間*/
 	background: #fff;	/*背景色*/
@@ -43,24 +47,26 @@ a:hover {
 /*ヘッダーブロック*/
 header {
 	width: 100%;
-	background: #000;	/*背景色*/
+	background: #309ad6;	/*背景色*/
 	position: fixed;	/*画面上部に固定表示させる設定。不要ならこの１行削除。*/
-	height: 50px;	/*ヘッダーの高さ*/
+	height: 80px;	/*ヘッダーの高さ*/
 	-webkit-box-shadow: 0px 0px 6px rgba(0,0,0,0.4);	/*影の設定。右・下・ぼかし幅・色(rgba)の設定。rgba値は左３つが色指定(この場合は黒)で最後の小数点が透明度。*/
 	box-shadow: 0px 0px 6px rgba(0,0,0,0.4);			/*同上*/
     z-index: 100;
 }
 /*ロゴ画像の設定*/
 header #logo {
-	width: 130px;	/*ブロック幅*/
+	width: 220px;	/*ブロック幅*/
 	float: left;	/*左に回りこみ*/
-	padding: 10px;	/*ロゴブロック内の余白*/
-	background: #c80000;	/*背景色（古いブラウザ用）*/
-	background: -webkit-gradient(linear, left top, left bottom, from(#c80000), to(#970000));	/*グラデーション*/
-	background: -webkit-linear-gradient(#c80000, #970000);	/*同上*/
-	background: linear-gradient(#c80000, #970000);			/*同上*/
-	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.2);	/*影の設定。右・下・ぼかし幅・色(rgba)の設定。rgba値は左３つが色指定(この場合は黒)で最後の小数点が透明度。*/
+	/*
+	padding: 10px;	/*ロゴブロック内の余白
+	background: #309ab6;	/*背景色（古いブラウザ用）
+	background: -webkit-gradient(linear, left top, left bottom, from(#c80000), to(#970000));	/*グラデーション
+	background: -webkit-linear-gradient(#c80000, #970000);	/*同上
+	background: linear-gradient(#c80000, #970000);			/*同上
+	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.2);	/*影の設定。右・下・ぼかし幅・色(rgba)の設定。rgba値は左３つが色指定(この場合は黒)で最後の小数点が透明度。
 	box-shadow: 0px 0px 10px rgba(0,0,0,0.2);			/*同上*/
+	
 }
 
 /*inner
@@ -75,7 +81,7 @@ header #logo {
 /*メニューブロックの設定*/
 #menubar {
 	float: right;	/*右寄せ*/
-	margin-top: 11px;	/*上下バランスを取る為、上に少しスペースをとる。*/
+	margin-top: 36px;	/*上下バランスを取る為、上に少しスペースをとる。*/
 }
 /*メニュー１個あたりの設定*/
 #menubar li {
